@@ -4,11 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Верстка 27.06.2023</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
+    <aside class="header-wrapper">
+        <div class="logo-body">
+            <i class="fa-solid fa-person-shelter logo-icon"></i>
+            <span class="logo-text">Archies</span>
+        </div>
+        <ul class="navbar-body">
+            <li class="menu-item active">
+                <a href="#" class="menu-link">Home</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">About</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Services</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Project</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Blog</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Contact</a>
+            </li>
+        </ul>
+    </aside>
+    <section class="block1">
+        <span class="title">Transform Your Space With archies</span>
+        <span class="text">Our team of expert designers works closely with clients to create unique, functional, and
+            beautiful spaces
+            that are tailored to their specific needs and preferences</span>
+    </section>
 
+    <section class="swiper swiper-section">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/Proektdomavstileminimalizm.jpg" alt="" class="img-slide">
+            </div>
+            <div class="swiper-slide">
+                <img src="/1652359943_1-gamerwall-pro-p-odnoetazhnie-doma-v-stile-minimalizm-oboi-1.jpg" alt=""
+                    class="img-slide">
+            </div>
+            <div class="swiper-slide">
+                <img src="/1640034780_1-bigfoto-name-p-minimalizm-v-arkhitekture-zagorodnikh-domo-1.jpg" alt=""
+                    class="img-slide">
+            </div>
+        </div>
+        <div class="swiper-toolbar">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-more-slide">
+                <div class="block-info-slide">
+                    <span class="info-status">
+                    </span>
+                    <span class="info-title"></span>
+                    <span class="info-date"></span>
+                </div>
+                <div class="block-info-slide">
+                    <span class="info-placeholder">Location</span>
+                    <span id="location"></span>
+                    <span class="info-placeholder">Prices</span>
+                    <span id="prices"></span>
+                </div>
+                <div class="block-info-slide">
+                    <span class="info-placeholder">Theme & Style</span>
+                    <span id="style"></span>
+                    <span class="info-placeholder">Architect</span>
+                    <span id="architect"></span>
+                </div>
+                <div class="swiper-navigation">
+                    <button class="swiper-button swiper-buttons-next fa-solid fa-arrow-right-long">
+                    </button>
+                    <button class="swiper-button swiper-buttons-prev fa-solid fa-arrow-left-long">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
 </body>
 
